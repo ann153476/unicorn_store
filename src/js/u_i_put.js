@@ -11,7 +11,7 @@ let markup = unicorns_items
             <use href="${svg}#icon-basket"></use>
           </svg>
         </div>
-        <img src="../img/${item.img}.png" />
+        <img src="/${item.img}.png" />
         <div class="card__box_text">
           <div class="card__items">
             <p>name :</p>
