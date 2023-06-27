@@ -1,11 +1,12 @@
-export const unicorns_items = [
+import u1 from '../../img/unicorn (1).png';
+export default unicorns_items = [
   {
     name: 'Iris',
     age: 675,
     gender: 'male',
     style: '',
     cost: 250000,
-    img: 'unicorn (1)',
+    img: u1,
   },
   {
     name: 'Mystique',
