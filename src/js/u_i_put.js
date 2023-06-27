@@ -1,5 +1,5 @@
-import { unicorns_items } from './js/unicorns_description/unicorns_items';
-import svg from './img/symbol-defs.svg';
+import { unicorns_items } from './unicorns_description/unicorns_items';
+import svg from '../img/symbol-defs.svg';
 let markup = unicorns_items
   .map(
     item => `<div class="card">
@@ -11,7 +11,7 @@ let markup = unicorns_items
             <use href="${svg}#icon-basket"></use>
           </svg>
         </div>
-        <img src="./img/${item.img}.png" />
+        <img src="img/${item.img}.png" />
         <div class="card__box_text">
           <div class="card__items">
             <p>name :</p>
@@ -33,3 +33,4 @@ let markup = unicorns_items
   .join('');
 const root = document.querySelector('#root');
 root.insertAdjacentHTML('beforeend', markup);
+export default all;
