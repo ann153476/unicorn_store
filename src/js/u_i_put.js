@@ -1,11 +1,7 @@
 import unicorns_items from './unicorns_description/unicorns_items';
-import svg from '../img/symbol-defs.svg';
+import svg from '../../assets/svg/symbol-defs.svg';
+import u1 from '../../assets/img/unicornsimg/unicorn(1).png';
 
-import aaa from '../img/unicorn (45).png';
-/////////////////////////////////////////////
-// const images = require.context('../img', true);
-// console.log(images);
-//////////////////////////////
 let markup = unicorns_items
   .map(
     (item, index) =>
@@ -18,19 +14,19 @@ let markup = unicorns_items
             <use href="${svg}#icon-basket"></use>
           </svg>
         </div>
-        <img src="${aaa}" alt="Img" />
+  <img src="${item.img}" alt="unicorn">
         <div class="card__box_text">
           <div class="card__items">
+            <p>ім'я :</p>
             <p>name :</p>
             <p>age :</p>
-            <p>gender :</p>
             <p>style :</p>
             <p>cost :</p>
           </div>
           <div class="card__description">
-            <p>${item.name}</p>
+            <p>${item.name_ua}</p>
+            <p>${item.name_en}</p>
             <p>${item.age}</p>
-            <p>${item.gender}</p>
             <p>${item.style}</p>
             <p>${item.cost}</p>
           </div>
