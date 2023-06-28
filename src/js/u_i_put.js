@@ -1,10 +1,12 @@
 import unicorns_items from './unicorns_description/unicorns_items';
 import svg from '../../assets/svg/symbol-defs.svg';
-
 let markup = unicorns_items
   .map(
     (item, index) =>
       `<div id="c${index}" class="card">
+      <div class="gender">
+    <img src="${item.gender}"/>
+</div>
         <div class="card__box">
           <svg class="svg__h">
             <use href="${svg}#icon-heart"></use>

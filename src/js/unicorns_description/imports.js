@@ -84,6 +84,10 @@ import u83 from '../../../assets/img/unicornsimg/unicorn(83).png';
 import u84 from '../../../assets/img/unicornsimg/unicorn(84).png';
 import u85 from '../../../assets/img/unicornsimg/unicorn(85).png';
 import u86 from '../../../assets/img/unicornsimg/unicorn(86).png';
+import u87 from '../../../assets/img/unicornsimg/unicorn(87).png';
+import u88 from '../../../assets/img/unicornsimg/unicorn(88).png';
+import u89 from '../../../assets/img/unicornsimg/unicorn(89).png';
+import u90 from '../../../assets/img/unicornsimg/unicorn(90).png';
 
 const arr = [
   u1,
@@ -172,5 +176,9 @@ const arr = [
   u84,
   u85,
   u86,
+  u87,
+  u88,
+  u89,
+  u90,
 ];
 export default arr;
