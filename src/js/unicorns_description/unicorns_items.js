@@ -1,5 +1,3 @@
-import u1 from '../../img/unicorn (1).png';
-
 export default unicorns_items = [
   {
     name: 'Iris',
@@ -7,7 +5,7 @@ export default unicorns_items = [
     gender: 'male',
     style: '',
     cost: 250000,
-    img: u1,
+    img: '../img/unicorn(1).png',
   },
   {
     name: 'Mystique',
@@ -15,7 +13,7 @@ export default unicorns_items = [
     gender: 'female',
     style: '',
     cost: 45000,
-    img: 'unicorn (2)',
+    img: '../img/unicorn(2).png',
   },
   {
     name: 'Luna',
@@ -23,7 +21,7 @@ export default unicorns_items = [
     gender: 'female',
     style: '',
     cost: 72000,
-    img: 'unicorn (3)',
+    img: '../img/unicorn(3).png',
   },
   {
     name: 'Celestia',
