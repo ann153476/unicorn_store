@@ -1,6 +1,5 @@
 import unicorns_items from './unicorns_description/unicorns_items';
 import svg from '../../assets/svg/symbol-defs.svg';
-import u1 from '../../assets/img/unicornsimg/unicorn(1).png';
 
 let markup = unicorns_items
   .map(

@@ -85,7 +85,7 @@ import u84 from '../../../assets/img/unicornsimg/unicorn(84).png';
 import u85 from '../../../assets/img/unicornsimg/unicorn(85).png';
 import u86 from '../../../assets/img/unicornsimg/unicorn(86).png';
 
-export default arr = [
+const arr = [
   u1,
   u2,
   u3,
@@ -173,4 +173,4 @@ export default arr = [
   u85,
   u86,
 ];
-console.log(arr.length);
+export default arr;
