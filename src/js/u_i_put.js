@@ -1,8 +1,11 @@
 import unicorns_items from './unicorns_description/unicorns_items';
+
 import svg from '../img/symbol-defs.svg';
+
 let markup = unicorns_items
   .map(
-    (item, index) => `<div id="c${index}" class="card">
+    (item, index) =>
+      `<div id="c${index}" class="card">
         <div class="card__box">
           <svg class="svg__h">
             <use href="${svg}#icon-heart"></use>
@@ -11,10 +14,10 @@ let markup = unicorns_items
             <use href="${svg}#icon-basket"></use>
           </svg>
         </div>
-        <img src="${item.img}" />
+        <img src="../img/unicorn (${index}).png">
         <div class="card__box_text">
           <div class="card__items">
-            
+
             <p>age :</p>
             <p>gender :</p>
             <p>style :</p>
@@ -31,8 +34,9 @@ let markup = unicorns_items
       </div>`
   )
   .join('');
-console.log('oycyfx');
+
 const root = document.querySelector('#root');
+
 document.addEventListener('DOMContentLoaded', function () {
-  root.insertAdjacentHTML('beforeend', markup);
+  root.innerHTML = markup;
 });
