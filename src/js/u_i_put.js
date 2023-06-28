@@ -21,7 +21,7 @@ let markup = unicorns_items
         <img src="${aaa}" alt="Img" />
         <div class="card__box_text">
           <div class="card__items">
-
+            <p>name :</p>
             <p>age :</p>
             <p>gender :</p>
             <p>style :</p>
@@ -30,7 +30,7 @@ let markup = unicorns_items
           <div class="card__description">
             <p>${item.name}</p>
             <p>${item.age}</p>
-            <p>${item.genger}</p>
+            <p>${item.gender}</p>
             <p>${item.style}</p>
             <p>${item.cost}</p>
           </div>
