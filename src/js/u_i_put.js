@@ -1,7 +1,7 @@
 import unicorns_items from './unicorns_description/unicorns_items';
 import svg from '../img/symbol-defs.svg';
 
-import aaa from '../img/unicorn (56).png';
+import aaa from '../img/unicorn (45).png';
 /////////////////////////////////////////////
 // const images = require.context('../img', true);
 // console.log(images);
