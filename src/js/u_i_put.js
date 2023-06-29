@@ -5,7 +5,7 @@ let markup = unicorns_items
     (item, index) =>
       `<div id="c${index}" class="card">
       <div class="gender">
-    <img src="${item.gender}"/>
+    <img class="gender__img" src="${item.gender}"/>
 </div>
         <div class="card__box">
           <svg class="svg__h">
@@ -15,7 +15,7 @@ let markup = unicorns_items
             <use href="${svg}#icon-basket"></use>
           </svg>
         </div>
-  <img src='/img/unicornsimg/unicorn(${index+1}).png' alt="Img" />
+  <img class="uni" src='${item.img}' alt="Img" />
         <div class="card__box_text">
           <div class="card__items">
             <p>ім'я :</p>

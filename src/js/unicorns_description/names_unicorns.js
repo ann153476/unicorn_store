@@ -188,7 +188,7 @@ export const gender = [
   0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
   1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1,
 ];
-console.log(gender.length);
+export const style = ["crystal","ma"];
 // function getDuplicateIndexes(arr) {
 //   var duplicateIndexes = [];
 

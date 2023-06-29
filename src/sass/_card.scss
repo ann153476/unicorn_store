@@ -71,3 +71,9 @@ body {
   bottom: 0;
   right: 0;
 }
+.card{
+  transition: all 0.5s linear;
+}
+.card:hover{
+  scale: (1.05);
+}

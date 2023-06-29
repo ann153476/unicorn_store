@@ -1,0 +1,23 @@
+body{
+    position: relative;
+}
+.overlay{
+position: fixed;
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.8);
+overflow-y: hidden;
+z-index: 999;
+scale: (1);
+transition: var(--transitionMY);
+}
+.overlay > img{
+width: 100%;
+height: 100vh;
+object-fit: contain;
+scale: (1);
+
+}
+.is-hidden{
+    scale: (0);
+}

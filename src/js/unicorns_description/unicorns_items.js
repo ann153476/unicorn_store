@@ -6,7 +6,6 @@ import {
 import arr from './imports.js';
 import gf from '../../../public/img/genger/female.png';
 import gm from '../../../public/img/genger/male.png';
-console.log(gender, '<');
 let unicorns_items = [];
 for (let i = 0; i < names_unicorns_ua.length; i++) {
   let g = 0;
