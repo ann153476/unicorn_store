@@ -6,6 +6,10 @@
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /unicorn_store/"
   },
+  "staticFiles": {
+        "staticPath": "public",
+        "watcherGlob": "**"
+  },
   "keywords": [],
   "author": "Hanna Zaichenko <ann153476@gmail.com>",
   "license": "ISC",
@@ -22,6 +26,7 @@
     "@parcel/transformer-sass": "^2.6.0",
     "buffer": "^6.0.3",
     "parcel": "^2.6.0",
+    "parcel-plugin-static-files-copy": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "path-browserify": "^1.0.1",
     "posthtml-include": "^1.7.4",

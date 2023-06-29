@@ -1,5 +1,5 @@
 import unicorns_items from './unicorns_description/unicorns_items';
-import svg from '../../assets/svg/symbol-defs.svg';
+import svg from '../../public/svg/symbol-defs.svg';
 let markup = unicorns_items
   .map(
     (item, index) =>
@@ -15,7 +15,7 @@ let markup = unicorns_items
             <use href="${svg}#icon-basket"></use>
           </svg>
         </div>
-  <img src="${item.img}" alt="unicorn">
+  <img src='/img/unicornsimg/unicorn(${index+1}).png' alt="Img" />
         <div class="card__box_text">
           <div class="card__items">
             <p>ім'я :</p>
