@@ -2,6 +2,7 @@ import {
   gender,
   names_unicorns_ua,
   names_unicorns_en,
+  style,
 } from './names_unicorns.js';
 import arr from './imports.js';
 import gf from '../../../public/img/genger/female.png';
@@ -22,6 +23,7 @@ for (let i = 0; i < names_unicorns_ua.length; i++) {
     cost: Math.trunc(Math.random() * (100000 - 10000) + 10000),
     img: arr[i],
     gender: g,
+    style: style[i]
   };
   unicorns_items.push(obj);
 }
